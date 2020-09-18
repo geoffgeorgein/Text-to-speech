@@ -4,7 +4,7 @@ import pytesseract
 from PIL import Image
 
 # Specifying the path
-pytesseract.pytesseract.tesseract_cmd = r'C:/Users/GEORGE/Desktop/py4e/OpenCV'
+pytesseract.pytesseract.tesseract_cmd = r'C:\\Program Files (x86)\\Tesseract-OCR\\tesseract.exe'
 
 # Reading the image
 image = cv2.imread('quote2.png')
